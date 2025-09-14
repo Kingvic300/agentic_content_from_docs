@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import * as React from "react";
+const { useState } = React;
 import { Header } from './components/Header';
 import { ContentForm } from './components/ContentForm';
 import { OutputDisplay } from './components/OutputDisplay';
